@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenleaf Garden Services - Gallery</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f1f8e9;
+        }
+
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #1b5e20;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #c5e1a5;
+        }
+
+        .gallery {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px #aaa;
+        }
+
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Greenleaf Garden Services</h1>
+    <p>Our Garden Gallery</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<section class="gallery">
+
+    <h1>Our Work</h1>
+
+    <p>
+        Take a look at some examples of beautiful gardens and outdoor
+        spaces.
+    </p>
+
+    <div class="gallery-container">
+
+        <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae"
+             alt="Garden">
+
+        <img src="https://images.unsplash.com/photo-1558904541-efa843a96f01"
+             alt="Green lawn">
+
+        <img src="https://images.unsplash.com/photo-1599685315640-9ce2f1d4b4c3"
+             alt="Garden maintenance">
+
+        <img src="https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e"
+             alt="Plants">
+
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
+             alt="Landscaping">
+
+        <img src="https://images.unsplash.com/photo-1598902108854-10e335adac99"
+             alt="Beautiful garden">
+
+    </div>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 Greenleaf Garden Services. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
